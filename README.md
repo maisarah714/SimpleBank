@@ -13,7 +13,7 @@ Bank Negara Decentralized Application (Cryptocurrency Laundering Detection)
 
 
 ## Step 1. Clone the project
-`git clone https://github.com/maisarah714/SimpleBank.git
+- git clone https://github.com/maisarah714/SimpleBank.git
 
 ## Step 2. Install dependencies
 ```
