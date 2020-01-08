@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+  <title>Bank Negara dApp</title>
+  <link rel="icon" href="dollar.png" type="image/gif" sizes="16x16">
+</head>
+
+
+<body>
+  
+
+  <div class="container">
+	<div class="wrapcontainer">
+			<h2 class="titlecontainer">Bank Negara Decentralized Application</h2>
+			<h3 class="titlecontainer">Cryptocurrency Laundering Detection</h3>
+		
+    <div class="block">
+      <label class="label-input100"><b>Create Account: &nbsp;&nbsp;</b></label>
+      <div class="wrap-input100">
+	  <input class="input100" type="text" id="name" placeholder=" Enter Name" required />
+	  <span class="focus-input100"></span>
+	  </div>
+	  
+	  <div class="wrap-input100">
+	  <input class="input100" type="number" id="createAmount" placeholder=" Enter Amount in Ether" required />
+	 <span class="focus-input100"></span>
+	 </div>
+	 <div class="container-contact100-form-btn">
+		<div class="wrap-contact100-form-btn">
+			<div class="contact100-form-bgbtn"></div>
+			<button class="contact100-form-btn" id="createAccount">
+				<span>
+					Create
+					<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+				</span>
+			</button>
+		</div>
+	</div>
+    </div>
+	
+    <div class="block">
+      <label class="label-input100"><b>Deposit Balance: &nbsp;&nbsp;</b></label>
+     <div class="wrap-input100">
+	 <input class="input100" type="number" id="depositAmount" placeholder="Enter Amount Ether " required />
+      <span class="focus-input100"></span>
+	 </div>
+	 
+	 <div class="container-contact100-form-btn">
+		<div class="wrap-contact100-form-btn">
+			<div class="contact100-form-bgbtn"></div>
+			<button class="contact100-form-btn" id="deposit">
+				<span>
+					Deposit
+					<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+				</span>
+			</button>
+		</div>
+	</div>
+    </div>
+	
+	
+	
+	
+	
+	
+    <div class="block">
+      <label class="label-input100"><b>Withdraw Amount: &nbsp;&nbsp;</b></label>
+      <div class="wrap-input100">
+	  <input class="input100" type="number" id="withdrawAmount" placeholder="Enter amount in Ether" required />
+      <span class="focus-input100"></span>
+	 </div>
+	 
+	 <div class="container-contact100-form-btn">
+		<div class="wrap-contact100-form-btn">
+			<div class="contact100-form-bgbtn"></div>
+			<button class="contact100-form-btn" id="withdraw">
+				<span>
+					Withdraw
+					<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+				</span>
+			</button>
+		</div>
+	</div>
+    </div>
+
+				
+	
+    </br>
+	
+	<div class="block">
+		<div id="response" class="wrap-input100">
+		<label class="label-input100"><b>Account Details: &nbsp;&nbsp;</b></label>
+		  <p>Name: <span id="getName">??</span></p>
+		  <p>Address: <span id="getAddress">??</span></p>
+		  <p>Balance: <span id="getBalance">??</span></p>
+		</div>
+		
+		
+		<div class="container-contact100-form-btn">
+			<div class="wrap-contact100-form-btn">
+				<div class="contact100-form-bgbtn"></div>
+				<button class="contact100-form-btn" id="getAccountDetails">
+					<span>
+						Get Account Summary
+						<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+					</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="block">
+		<div id="Violation" class="wrap-input100">
+		<label class="label-input100"><b>Violation Message Report: &nbsp;&nbsp;</b></label>
+			<p>Threshold Violation: <span id="getViolation">??</span></p>
+			<p>Name: <span id="getNameViolate">??</span></p>
+			<p>Address: <span id="getAddressViolate">??</span></p>
+			<p>Balance: <span id="getBalanceViolate">??</span></p>
+		</div>
+	</div>
+	
+	</div>
+  </div>
+  <hr>
+  <div id="log"></div>
+  <link rel="stylesheet" href="index.css">
+  <script src="web3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="index.js"></script>
+</body>
+<footer style="text-align: right;">
+
+</footer>
+
+</html>
