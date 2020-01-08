@@ -8,6 +8,7 @@ Bank Negara Decentralized Application (Cryptocurrency Laundering Detection)
 - Web3.js v1.2.1
 - Python v3.8.1
 - Solidity v0.5.8
+- git version 2.24.1.windows.2
 - Ganache IDE
 - Metamask
 
